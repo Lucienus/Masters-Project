@@ -15,8 +15,7 @@ Download
 1. open the URL: https://nlp.stanford.edu/software/stanford-ner-2018-02-27.zip for downloading the model of stanfordNLP
 2. Decompress the 'stanford-ner-2018-02-27.zip'
 3. open 'Named Entities Anonymisation for Academic Journal Articles.py'
-4. change the value of 'stner' at the beginning.
-example: if you download the zip and decompress on your desktop, you need to change the value of 'stner' to 
+4. change the value of 'stner' at the beginning. For example, if you download the zip and decompress on your desktop, you need to change the value of 'stner' to:
 
 stner = StanfordNERTagger(model_filename=r'/xxx/xxx/Desktop/stanford-ner-2018-02-27/classifiers/english.conll.4class.distsim.crf.ser.gz',path_to_jar=r'/xxx/xxx/Desktop/stanford-ner-2018-02-27/stanford-ner.jar')
 
